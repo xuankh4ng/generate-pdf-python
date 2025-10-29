@@ -8,7 +8,7 @@
 python -m venv .venv
 ```
 - Kích hoạt:
-  - Powershell:
+  - PowerShell:
   ```shell
   .venv\Scripts\activate
   ```
@@ -21,17 +21,17 @@ python -m venv .venv
 ```shell
 pip install -r requirement.txt
 ```
+> [!important]
+> Chỉ nên bắt đầu cài thư viện sau khi đã kích hoạt môi trường ảo Python.
+
 ## Chạy chương trình
 ```shell
 python main.py
 ```
 
-> [!important]
-> Chỉ chạy chương trình khi đã kích hoạt môi trường ảo và cài đặt thư viện trong môi trường ảo đó.
-
 # Phát triển tính năng
-- Chuyển sang nhánh **feature** và làm trên đó.
+- Chuyển sang ***nhánh feature*** và làm trên đó.
 ```shell
 git checkout feature
 ```
-- Khi xong thì cứ push lên repo này, còn lại để tui kiểm tra rồi **merge** vào nhánh main.
+- Khi xong thì cứ push nhánh ***feature*** này lên repo, còn lại để tui kiểm tra rồi ***merge vào nhánh main***.
